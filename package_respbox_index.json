@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "response box",
+      "maintainer": "jedocs",
+      "websiteURL": "",
+      "email" : "",
+      "platforms":
+      [
+        {
+          "name": "Response box controller",
+          "architecture": "samd",
+          "version": "0.0.10",
+          "category": "Contributed",
+          "url": "https://github.com/robotics-masters/mm1-hat-arduino/blob/master/custom_board/RoboHat-0.0.26.zip?raw=true",
+          "archiveFileName": "RoboHat-0.0.26.zip",
+          "checksum": "SHA-256:1efa4f85c634032502870eda15d366da199a3d69ad3b647e5c71188494132bf2",
+          "size": "4456372",
+          "boards": [
+            {
+              "name": "response box controller"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
